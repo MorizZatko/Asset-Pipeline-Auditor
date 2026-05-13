@@ -32,17 +32,16 @@ Tool follows a linear pipeline flow:
 **1. Clone the repository:**
 *Bash:*
 git clone https://github.com/YourUsername/Asset-Pipeline-Auditor.git
-
 **2. Install Dependencies when needed:**
 *Bash:*
 pip install pandas numpy
-
 **3. Run the Tool:**
 *Bash:*
 python main.py
 
 ## Results
-Name	Category	Version	Size	Status
-Hero_Mesh	Mesh	1.2	500.0	Outdated
-Skin_Tex	Texture	2.0	40.0	OK
-Rock_Mesh	Mesh	1.1	1200.0	Too heavy
+| Name | Category | Version | Size (MB) | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| Hero_Mesh | Mesh | 1.2 | 500.0 | Outdated |
+| Skin_Tex | Texture | 2.0 | 40.0 | OK |
+| Rock_Mesh | Mesh | 1.1 | 1200.0 | Too heavy |
